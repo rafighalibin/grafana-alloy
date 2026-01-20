@@ -48,4 +48,4 @@ helm upgrade --install alloy grafana/alloy \
 kubectl get pods -n loki  
 kubectl get pods -n alloy  
 ```
-Logs should now be available in Grafana under Explore using Loki as the data source.
+Additional configuration needed for introducing loki as new data source in grafana
